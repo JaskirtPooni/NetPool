@@ -9,7 +9,7 @@
     tools:context="com.DataShare.NetPool.MainActivity" >
 
     <Button
-        android:id="@+id/set"
+        android:id="@+id/set_hotspot"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
