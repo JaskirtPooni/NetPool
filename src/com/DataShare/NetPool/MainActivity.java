@@ -45,11 +45,7 @@ public class MainActivity extends ActionBarActivity {
 			@Override
 			public void onClick(View arg0) {
 
-				int res = wifi.addNetwork(wifiConfig);
-			    Log.d("WifiPreference", "add Network returned " + res );
-			    boolean b = wifi.enableNetwork(res, true);        
-			    Log.d("WifiPreference", "enableNetwork returned " + b );
-
+				boolean status=wifiApManager.setWifiApEnabled(wifiConfig, true);
 			}
 		});
 	}
