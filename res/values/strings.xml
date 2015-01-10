@@ -4,5 +4,6 @@
     <string name="app_name">NetPool</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="set_hotspot">Set Up HotSpot</string>
 
 </resources>
